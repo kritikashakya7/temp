@@ -1,0 +1,61 @@
+.home {
+    background-image: url('C:/Users/Dell/OneDrive/Desktop/VD4J/img.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bona Nova SC', cursive;
+  }
+  
+  .container {
+    background-color: rgba(231, 137, 195, 0.8); /* White background with transparency */
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .icon-item {
+    display: flex;
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center; /* Center the content horizontally */
+  }
+  
+  .icon {
+    width: 60px; /* Set the width of the icon */
+    height: 60px; /* Set the height of the icon */
+    color: #0c0b0c; /* Customize the icon color */
+    transition: transform 0.3s, color 0.3s; /* Smooth transition for transform and color */
+  }
+  
+  .icon-item p {
+    margin-top: 10px; /* Add space between the icon and the text */
+    font-size: 14px; /* Adjust text size */
+    color: rgb(4, 4, 4); /* Color of the text */
+    font-weight: bold; /* Make the text bold */
+    transition: color 0.3s; /* Smooth transition for text color */
+  }
+  
+  /* Hover effect for icons */
+  .icon-item:hover .icon {
+    transform: scale(1.2); /* Scale the icon when hovered */
+    color: #3d3539; /* Change the color of the icon when hovered */
+  }
+  
+  /* Hover effect for text */
+  .icon-item:hover p {
+    color: #51444a; /* Change the text color when hovered */
+  }
+  

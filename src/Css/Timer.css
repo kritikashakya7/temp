@@ -1,0 +1,83 @@
+.timer-container {
+  background-image: url('C:/Users/Dell/OneDrive/Desktop/VD4J/img.jpg'); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.timer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-content {
+  background-color: rgba(231, 137, 195, 0.8);
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  padding: 15px 5px;
+  background-color: white;
+  width: 100%;
+  max-width: 500px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 18px;
+}
+
+.icon-search {
+  margin-left: 10px;
+  font-size: 25px;
+  color: #333;
+}
+
+.time-elapsed {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #333;
+  padding-top: 5%;
+}
+
+input::placeholder {
+  color: black;
+  font-weight: bold;
+}
+
+/* Styles for button container */
+.btn-container {
+  margin-top: 20px; /* Adds spacing below the timer box */
+}
+
+.back-button {
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background-color: #B82132;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #d368a5;
+}

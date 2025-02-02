@@ -1,0 +1,62 @@
+
+.Home {
+  background-image: url("C:/Users/Dell/OneDrive/Desktop/VD4J/img.jpg"); /* Background image in the public folder */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Bona Nova SC', cursive;
+}
+
+.container-wrapper {
+  background-color: rgba(231, 137, 195, 0.8); /* White background with transparency */
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+.container-wrapper img {
+  width: 150px; /* Adjust image size */
+  height: 150px; /* Maintain aspect ratio */
+  margin-right: 20px; /* Add space between image and text */
+  border-radius: 10px; /* Rounded corners for the image */
+}
+
+.container-wrapper h1,
+.container-wrapper h2 {
+  margin: 0;
+  text-align: left;
+}
+
+
+
+.btn {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #B82132;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  font-family: 'MyCustomCursive', cursive;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #B82132;
+  transform: scale(1.1);
+}
+
+button:focus {
+  outline: none;
+}
